@@ -1,7 +1,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from simple_tire_model.tire_model import simple_tire_model, DEFAULT_COEFFS
+from vehicle_dynamics.tire_model import simple_tire_model, DEFAULT_COEFFS
 from scipy.optimize import fsolve
 
 # Vehicle parameters
